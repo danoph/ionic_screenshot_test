@@ -14,6 +14,7 @@ exports.config = {
     app: '/Users/daniel/workspace/member-ionic3/platforms/ios/build/emulator/MyApp.app',
     browserName: '',
     //browserName: 'safari',
+    //autoWebview: true,
     platformName: 'iOS',
     platformVersion: '11.1',
     deviceName: 'iPhone Simulator',

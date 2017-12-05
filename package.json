@@ -9,6 +9,7 @@
     "build": "ionic-app-scripts build",
     "lint": "ionic-app-scripts lint",
     "ionic:build": "ionic-app-scripts build",
+    "start": "yarn run ionic:serve",
     "ionic:serve": "ionic-app-scripts serve"
   },
   "dependencies": {

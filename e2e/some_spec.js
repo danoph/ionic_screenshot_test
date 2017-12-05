@@ -1,9 +1,24 @@
 //import { browser, element, by, $, $$ } from 'protractor';
 var fs = require('fs');
+//var wd = require('wd');
 
 describe('something', () => {
+  //var myBrowser = wd.promiseChainRemote();
+
   it('does stuff', () => {
-    //browser.get('');
+    //print(XCUIApplication().debugDescription)
+    //console.log(browser);
+    console.log('wdBrowser', wdBrowser);
+    //console.log('myBrowsewr', myBrowser);
+
+    //const usernameInput = wdBrowser.elementByAccessibilityId('txtUsername');
+    //console.log('usernameInput', usernameInput);
+
+    //usernameInput.sendKeys('hello world');
+
+    browser.sleep(5000).then(() => {
+      console.log('done!');
+    });
 
     //browser.takeScreenshot().then(png => {
       //const filename = 'test-ios';
@@ -13,6 +28,16 @@ describe('something', () => {
       //stream.end();
     //});
 
-    expect($('body').getText()).toEqual('hello');
+    //console.log('iosLogin'
+
+    //expect($('body').getText()).toEqual('hello');
   });
 });
+
+//export class LoginPage {
+  //usernameInput: $('.username');
+//}
+
+//export class IosLoginPage {
+  //usernameInput: browser.driver.elementByAccessibilityId('txtUsername')
+//}
